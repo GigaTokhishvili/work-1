@@ -1,0 +1,65 @@
+.auth {
+    background-color: #090707;
+}
+  
+.form {
+    background-color: #ffffff;
+    height: 800px;
+    width: 900px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.imgInputLabel {
+    width: 200px;
+    height: 200px;
+    background-color: #E6EBFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label img {
+    width: 84px;
+    height: auto;
+}
+
+.imgInput {
+    display: none;
+}
+
+.nameInput {
+    width: 530px;
+    height: 100px;
+    background-color: #E6EBFF;
+    font-size: 2rem;
+    border: none;
+    color: #A5A5A5;
+    padding: 0 1.5rem;
+}
+
+.auth button {
+    width: 395px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, .25);
+}

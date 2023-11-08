@@ -1,0 +1,10 @@
+.tableData {
+    min-width: 8rem;
+    height: 6rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.darkBg {
+    background-color: #F6F6F6;
+}

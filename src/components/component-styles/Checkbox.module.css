@@ -1,0 +1,13 @@
+.checkboxDiv {
+    padding: .3rem 1.5rem;
+    user-select: none;
+}
+
+.checkboxDiv label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.checkboxDiv input {
+    cursor: pointer;
+}

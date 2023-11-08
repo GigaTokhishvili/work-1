@@ -1,0 +1,24 @@
+.landing {
+    background-color: #0C0D0E;
+    background-image: url(./assets/stars.png);
+    flex-direction: column;
+    gap: 7rem;
+  }
+  
+.landing img {
+height: 166px;
+}
+
+.landing h1 {
+color: var(--main-color);
+font-size: 6rem;
+}
+
+.button {
+width: 400px;
+height: 80px;
+border-radius: 7px;
+background-color: var(--main-color);
+color: #ffffff;
+font-size: 1.5rem;
+}

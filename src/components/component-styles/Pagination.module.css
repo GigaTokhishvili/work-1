@@ -1,0 +1,88 @@
+.navBar {
+    width: 125px;
+    height: 25px;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+
+.navBar button {
+    font-size: 1.2rem;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.navBar button:hover {
+    background-color: gray;
+}
+
+.chevLeft {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.chevLeft:hover {
+    background-color: gray;
+}
+
+.chevsLeft {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/chevrons-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.chevsLeft:hover {
+    background-color: gray;
+}
+
+.chevRight {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.chevRight:hover {
+    background-color: gray;
+}
+
+.chevsRight {
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/chevrons-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.chevsRight:hover {
+    background-color: gray;
+}
+
+.navBar button.borderBot {
+    border-bottom: 1px solid white;
+    font-weight: 1000;
+}
+
+.navBar button.borderBot:hover {
+    background-color: gray;
+}
